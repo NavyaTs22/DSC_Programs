@@ -1,10 +1,12 @@
+// Program Dynamically takes elements of an array and displays them. 
+
 #include <stdio.h>
 
 int main() {
   int i,j,a[3][3];
- printf("enter the elements");
+ printf("enter the elements ");
  
- for(i=0;i<3;i++){
+ for(i=0;i<3;i++){            // Nested looping for 2D arrays since there are rows and columns 
      for(j=0;j<3;j++)
      {
          scanf("%d",&a[i][j]);
@@ -23,11 +25,8 @@ for(i=0;i<3;i++){
 } 
 
 OUTPUT:
-enter the elements1 2 3 4 5 6 7 8 9 
+enter the elements 1 2 3 4 5 6 7 8 9 
 the elements are :
 1	2	3	
 4	5	6	
 7	8	9	
-
-
-=== Code Execution Successful ===

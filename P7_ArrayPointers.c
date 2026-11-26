@@ -1,3 +1,4 @@
+// This Program Is To See How To Access Array Pointers 
 #include <stdio.h>
 
 int main() {
@@ -8,7 +9,7 @@ int i;
 
 p=a;
 
-printf("the elements are:\n");
+printf("The Elements are:\n");
 for(i=0;i<5;i++) { 
     printf("%d\n",*((p+i)));
 }
@@ -19,7 +20,7 @@ for(i=0;i<5;i++) {
 
 OUTPUT :
 
-the elements are:
+The Elements are:
 10
 20
 30

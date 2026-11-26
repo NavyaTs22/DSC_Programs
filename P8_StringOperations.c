@@ -1,3 +1,5 @@
+// Program to Learn About String Operations 
+
 #include <stdio.h>
 #include <string.h>
 
@@ -6,7 +8,8 @@ char str1[20] = "Hello";
 char str2[20] = "World";
 char str3[40];
 int length;
- length = strlen(str1);
+ 
+length = strlen(str1);
 printf("Length of str1: %d\n", length);
 strcat(str3, "");
 strcat(str3, str2);
@@ -28,8 +31,6 @@ printf("%c", str1[i]);
 }
 
 printf("\n");
-
-
 
     return 0;
 }

@@ -1,17 +1,18 @@
-// Online C compiler to run C program online
+// Program dynamically calculates product of 2 matrices 
+
 #include <stdio.h>
 
 int main() {
   int i,j,k,a[3][3],b[3][3],r[3][3];
- printf("enter the elements for A matrix");
+ printf("Enter the elements for A matrix");
  
- for(i=0;i<3;i++){
+ for(i=0;i<3;i++){              // Nested Loop for 2D Arrays 
      for(j=0;j<3;j++)
      {
          scanf("%d",&a[i][j]);
      }
  }
-  printf("enter the elements for B matrix");
+  printf("Enter the elements for B matrix");
 for(i=0;i<3;i++){
      for(j=0;j<3;j++)
      {
@@ -19,7 +20,7 @@ for(i=0;i<3;i++){
      }
  }
 
-printf("prod of a and b matrices are\n");
+printf("Product of A and B matrices are\n");
 for(i=0;i<3;i++) {
      for(j=0;j<3;j++)
      {
@@ -36,10 +37,11 @@ for(i=0;i<3;i++) {
 
     return 0;
 }
+
 OUTPUT :
-enter the elements for A matrix1 2 3 4 5 6 7  8 9
-enter the elements for B matrix1 2 3 4 5 6 7 8 9
-prod of a and b matrices are
+Enter the elements for A matrix 1 2 3 4 5 6 7  8 9
+Enter the elements for B matrix 1 2 3 4 5 6 7 8 9
+Product of A and B matrices are
 30	36	42	
 66	81	96	
 102	126	150	
